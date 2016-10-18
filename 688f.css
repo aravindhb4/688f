@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Radiance';
+    src: url('http://cdn.dota2.com/apps/dota2/fonts/radiance.eot');
+    src: url('http://cdn.dota2.com/apps/dota2/fonts/radiance.eot?#iefix') format('embedded-opentype'), url('http://cdn.dota2.com/apps/dota2/fonts/radiance.woff') format('woff'), url('http://cdn.dota2.com/apps/dota2/fonts/radiance.ttf') format('truetype'), url('http://cdn.dota2.com/apps/dota2/fonts/radiance.svg#ywftsvg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Radiance-Bold';
+    src: url('http://cdn.dota2.com/apps/dota2/fonts/radiance-bold.eot');
+    src: url('http://cdn.dota2.com/apps/dota2/fonts/radiance-bold.eot?#iefix') format('embedded-opentype'), url('http://cdn.dota2.com/apps/dota2/fonts/radiance-bold.woff') format('woff'), url('http://cdn.dota2.com/apps/dota2/fonts/radiance-bold.ttf') format('truetype'), url('http://cdn.dota2.com/apps/dota2/fonts/radiance-bold.svg#ywftsvg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Radiance-SemiBold';
+    src: url('http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.eot');
+    src: url('http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.eot?#iefix') format('embedded-opentype'), url('http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.woff') format('woff'), url('http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.ttf') format('truetype'), url('http://cdn.dota2.com/apps/dota2/fonts/radiance-semibold.svg#ywftsvg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,
+html {
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+    font-family: Radiance;
+    color: #ffffff;
+}
+
+.container01 {
+    background-image: url('images/688f_keyart.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: #131d3d;
+    width: 100%;
+    height: 676px;
+    margin: auto;
+}
+
+.Inner {
+    width: 960px;
+    margin: auto;
+}
+
+.Inner img {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.container02 {
+    text-align: center;
+    font-size: 60px;
+    color: #ED3B1C;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.container02 h2 {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    font-weight: normal;
+    line-height: 140px;
+}
+
+.container03 {
+    background-image: url('images/list-top.jpg'), url('images/list.jpg');
+    background-position: center 0px, center 0px;
+    background-repeat: no-repeat, repeat-y;
+    background-color: #0D0E0F;
+    padding-bottom: 100px;
+}
+
+.heroes {
+    width: 960px;
+    position: relative;
+    margin: auto;
+}
+
+#herotag {
+    color: #ED3B1C;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 60px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.herobox {
+    color: #808080;
+    padding-bottom: 10px;
+}
+
+.herobox h3 {
+    color: #aaaaaa;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+.herobox ul {
+    margin-top: -6px;
+}
+
+.herobox li {
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.footer {
+    background-image: url('images/footer_stamp.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: #000000;
+    height: 300px;
+}
