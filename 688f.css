@@ -1,0 +1,122 @@
+@font-face {
+	font-family: Radiance;
+	src: url(fonts/radiance.ttf);
+}
+
+@font-face {
+	font-family: Radiance-Bold;
+	src: url(fonts/radiance-bold.ttf);
+}
+
+@font-face {
+	font-family: Radiance-Semibold;
+	src: url(fonts/radiance-semibold.ttf);
+}
+
+body,
+html {
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+    font-family: Radiance;
+    color: #ffffff;
+	width: 100%;
+	height: 100%;
+}
+
+.container01 {
+    background-image: url('images/688f_keyart.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: #131d3d;
+    width: 100%;
+    height: 676px;
+    margin: auto;
+	position: relative;
+	margin: auto;
+}
+
+.Inner {
+    width: 960px;
+    margin: auto;
+}
+
+.Inner img {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.container02 {
+    text-align: center;
+	width: 100%;
+	position: relative;
+	margin: auto;
+}
+
+.container02 h2 {
+    padding: 0;
+    margin: 0;
+	text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: normal;
+	font-size: 80px;
+    letter-spacing: 6px;
+    line-height: 140px;
+    color: #ED3B1C;
+}
+
+.container03 {
+    background-image: url('images/list-top.jpg'), url('images/list.jpg');
+    background-position: center 0px, center 0px;
+    background-repeat: no-repeat, repeat-y;
+    background-color: #0D0E0F;
+    padding-bottom: 100px;
+	width: 100%;
+	position: relative;
+	margin: auto;
+}
+
+.heroes {
+    width: 960px;
+    position: relative;
+    margin: auto;
+}
+
+#herotag {
+    color: #ED3B1C;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 60px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.herobox {
+    color: #808080;
+    padding-bottom: 10px;
+}
+
+.herobox h3 {
+    color: #aaaaaa;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+.herobox ul {
+    margin-top: -6px;
+}
+
+.herobox li {
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.footer {
+    background-image: url('images/footer_stamp.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: #000000;
+    height: 300px;
+}
